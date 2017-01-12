@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Portfolio</title>
+		<link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="icon" type="image/png" href="https://yt3.ggpht.com/-slzOwsq8iv0/AAAAAAAAAAI/AAAAAAAAAAA/KMUFhY9BQXc/s900-c-k-no-mo-rj-c0xffffff/photo.jpg">
+		<script src="js/jquery-3.1.1.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+			<!--header-->
+				<div class="row">
+					<div class="sect col-md-2">
+						<img class="title-logo"
+							 src="img/logo-2500_small.png"
+							 srcset="img/logo-2500_small.png 824w, img/logo-2500_medium.png 1536w, img/logo-2500_large.png 2500w"
+							 sizes="100vw"
+							 alt="udacity logo">
+					</div>
+					<div class="col-md-10 text-right text-uppercase">
+						<h1 class=" title-super text-thin">Muzamil Khan</h1>
+						<h4 class="subtitle">Front-end Ninja</h4>
+					</div>
+				</div>
+				<!--line below the header-->
+				<div class="row"><div class="col-md-12"><hr></div></div>
+			</header>
+			<!--main image-->
+			<div class="row">
+				<div class="col-md-12">
+					<img class="img-responsive"
+						 src="img/main-2500_small.jpeg"
+						 srcset="img/main-2500_small.jpeg 824w, img/main-2500_medium.jpeg 1536w, img/main-2500_large.jpeg 2500w"
+						 sizes="100vw"
+						 alt="main image">
+				</div>
+			</div>
+			<!--featured work title-->
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-muted">Featured Work</h2><br>
+				</div>
+			</div>
+			<!--projects-->
+			<div class="row text-center">
+				<article>
+					<div class="col-md-4">
+						<img class="img-responsive"
+							 src="img/sunf-2500_small.jpg"
+							 srcset="img/sunf-2500_small.jpg 824w, img/sunf-2500_medium.jpg 1536w, img/sunf-2500_large.jpg 2500w"
+							 sizes="100vw"
+							 alt="sunflower image"
+							 data-toggle="modal"
+							 data-target="#project2">
+						<h3 class="text-uppercase">Sunf⚘ower</h3>
+						<p class="link"><a href="http://github.com/udacity/sunflower">http://github.com/udacity/sunflower</a></p>
+					</div>
+				</article>
+				<article>
+					<div class="col-md-4">
+						<img class="img-responsive"
+							 src="img/appf-2500_small.jpg"
+							 srcset="img/appf-2500_small.jpg 824w, img/appf-2500_medium.jpg 1536w, img/appf-2500_large.jpg 2500w"
+							 sizes="100vw"
+							 alt="appify image"
+							 data-toggle="modal"
+							 data-target="#project1">
+						<h3 class="text-uppercase">☷Appify</h3>
+						<p class="link"><a href="http://github.com/udacity/appify">http://github.com/udacity/appify</a></p>
+					</div>
+				</article>
+				<article>
+					<div class="col-md-4">
+						<img class="img-responsive"
+						     src="img/bok-2500_small.jpeg"
+						     srcset="img/bok-2500_small.jpeg 824w, img/bok-2500_medium.jpeg 1536w, img/bok-2500_large.jpeg 2500w"
+						     sizes="100vw"
+						     alt="bokeh image"
+						     data-toggle="modal"
+						     data-target="#project3">
+						<h3 class="text-uppercase">B✺keh</h3>
+						<p class="link"><a href="http://github.com/udacity/bokeh">http://github.com/udacity/bokeh</a></p>
+					</div>
+				</article>
+			</div>
+		</div>
+		    <!-- Modal 1 -->
+		    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-hidden="true">
+		        <div class="modal-dialog">
+		            <div class="modal-content">
+		                <div class="modal-header">
+		                    <h4 class="modal-title">Appify</h4>
+		                </div>
+		                <div class="modal-body">
+							<img class="img-responsive"
+							 src="img/appf-2500_small.jpg"
+							 srcset="img/appf-2500_small.jpg 824w, img/appf-2500_medium.jpg 1536w, img/appf-2500_large.jpg 2500w"
+							 sizes="100vw"
+							 alt="appify image"
+							 data-toggle="modal"
+							 data-target="#project1">
+		                    <p class="descr">☷ This was my first project in this class. I learned a lot about HTML and CSS.</p>
+		                </div>
+		                <div class="modal-footer">
+		                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+			<!-- Modal 2 -->
+		    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-hidden="true">
+		        <div class="modal-dialog">
+		            <div class="modal-content">
+		                <div class="modal-header">
+		                    <h4 class="modal-title">Sunflower</h4>
+		                </div>
+		                <div class="modal-body">
+							<img class="img-responsive"
+							 src="img/sunf-2500_small.jpg"
+							 srcset="img/sunf-2500_small.jpg 824w, img/sunf-2500_medium.jpg 1536w, img/sunf-2500_large.jpg 2500w"
+							 sizes="100vw"
+							 alt="sunflower image"
+							 data-toggle="modal"
+							 data-target="#project2">
+		                    <p class="descr">⚘ This was my second project in this class. I learned a lot about HTML and CSS.</p>
+		                </div>
+		                <div class="modal-footer">
+		                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		    <!-- Modal 3 -->
+		    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-hidden="true">
+		        <div class="modal-dialog">
+		            <div class="modal-content">
+		                <div class="modal-header">
+		                    <h4 class="modal-title">Bokeh</h4>
+		                </div>
+		                <div class="modal-body">
+							<img class="img-responsive"
+						     src="img/bok-2500_small.jpeg"
+						     srcset="img/bok-2500_small.jpeg 824w, img/bok-2500_medium.jpeg 1536w, img/bok-2500_large.jpeg 2500w"
+						     sizes="100vw"
+						     alt="bokeh image"
+						     data-toggle="modal"
+						     data-target="#project3">
+		                    <p class="descr">✺ This was my third project in this class. I learned a lot about HTML and CSS.</p>
+		                </div>
+		                <div class="modal-footer">
+		                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+	</body>
+</html>
